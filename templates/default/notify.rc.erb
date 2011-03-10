@@ -1,0 +1,21 @@
+[extensions]
+hgext.notify =
+
+[hooks]
+changegroup.notify = python:hgext.notify.hook
+
+[email]
+from = <%= node[:mercurial][:notify][:email][:from] %>
+
+[reposubs]
+# key is glob pattern, value is comma-separated list of subscriber emails
+* = <%= node[:mercurial][:notify][:email][:to] %>
+
+[smtp]
+host = <%= node[:mercurial][:notify][:smtp][:host] %>
+
+[notify]
+test = false
+strip = 0
+style = <%= node[:mercurial][:notify][:style] %>
+
