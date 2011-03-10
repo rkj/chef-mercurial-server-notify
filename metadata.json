@@ -1,0 +1,29 @@
+{
+  "license": "All rights reserved",
+  "conflicting": {
+  },
+  "long_description": "= DESCRIPTION:\n\nInstalls notifications for mercurial-server as described here: http://rkj.github.com/Mercurial/notifications/2010/06/10/MercurialMultipleReposEmail.html\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "providing": {
+  },
+  "platforms": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "description": "Installs/Configures mercurial-server-notify",
+  "replacing": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "recipes": {
+  },
+  "groupings": {
+  },
+  "attributes": {
+  },
+  "recommendations": {
+  },
+  "dependencies": {
+  },
+  "name": "mercurial-server-notify",
+  "version": "0.0.1",
+  "suggestions": {
+  }
+}

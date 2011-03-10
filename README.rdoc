@@ -1,0 +1,10 @@
+= DESCRIPTION:
+
+Installs notifications for mercurial-server as described here: http://rkj.github.com/Mercurial/notifications/2010/06/10/MercurialMultipleReposEmail.html
+
+= REQUIREMENTS:
+
+= ATTRIBUTES:
+
+= USAGE:
+
