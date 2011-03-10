@@ -1,0 +1,10 @@
+:0c
+* ^X-Repo: \/.*
+{
+  RPATH=<%= node[:mercurial][:server][:repos]%>/hgadmin/subscriptions/${MATCH}
+  DEFAULT=`cat <%= node[:mercurial][:server][:repos]%>/hgadmin/subscriptions/default`
+  EMAIL=`if [ -f $RPATH ]; then cat $RPATH; else echo "Please create file /hgadmin/subscriptions/${MATCH}!" | mail -s "No subscriptions for repository >>${MATCH}<<" $DEFAULT; echo $DEFAULT ; fi `
+  :0
+  ! ${EMAIL}
+}
+

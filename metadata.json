@@ -1,17 +1,20 @@
 {
-  "license": "All rights reserved",
+  "license": "MIT/BSD",
   "conflicting": {
   },
   "long_description": "= DESCRIPTION:\n\nInstalls notifications for mercurial-server as described here: http://rkj.github.com/Mercurial/notifications/2010/06/10/MercurialMultipleReposEmail.html\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
   "providing": {
   },
   "platforms": {
+    "ubuntu": [
+
+    ]
   },
-  "maintainer": "YOUR_COMPANY_NAME",
-  "description": "Installs/Configures mercurial-server-notify",
+  "maintainer": "Itiner",
+  "description": "Configures notifications for mercurial-server repositories",
   "replacing": {
   },
-  "maintainer_email": "YOUR_EMAIL",
+  "maintainer_email": "roman.kamyk@itiner.pl",
   "recipes": {
   },
   "groupings": {
@@ -21,6 +24,12 @@
   "recommendations": {
   },
   "dependencies": {
+    "mercurial-server": [
+
+    ],
+    "postfix": [
+
+    ]
   },
   "name": "mercurial-server-notify",
   "version": "0.0.1",
